@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lucky"
+version = "0.0.1"
+description = "A tool for lottery"
+authors = ["Jack Deng <dlwxxxdlw@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Kivy = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
